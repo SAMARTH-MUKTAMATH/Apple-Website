@@ -7,6 +7,7 @@ import Showcase from './components/Showcase'
 import Performance from './components/Performance'
 import Footer from './components/Footer'
 import Features from './components/Features'
+import Highlights from './components/Highlights'
 // Register plugins with correct capitalization
 gsap.registerPlugin(ScrollTrigger, SplitText)
 
@@ -20,6 +21,7 @@ function App() {
       <Performance />
       <Footer />
       <Features />
+      <Highlights />
     </main> 
   )
 }
