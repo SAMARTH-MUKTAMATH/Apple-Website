@@ -14,7 +14,7 @@ gsap.registerPlugin(ScrollTrigger, SplitText)
 function App() {
   return (
     <main>
-      <Navbar />
+      <NavBar />
       <Hero />
       <ProductViewer />
       <Showcase />
